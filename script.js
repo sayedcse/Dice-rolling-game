@@ -71,7 +71,7 @@ btnHold.addEventListener('click', () => {
       scores[currentPlayer];
 
     // Checking the Winner
-    if (scores[currentPlayer] >= 20) {
+    if (scores[currentPlayer] >= 100) {
       //Finishing the game
       playing = false;
       eliDice.classList.add('hidden');
